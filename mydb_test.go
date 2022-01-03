@@ -257,3 +257,7 @@ func TestDB_SetConnMaxLifetime(t *testing.T) {
 	db.SetConnMaxLifetime(time.Hour * 24)
 	db.SetMaxOpenConns(30)
 }
+
+func TestHello(t *testing.T) {
+	Hello()
+}
