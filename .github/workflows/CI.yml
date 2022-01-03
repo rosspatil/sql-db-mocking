@@ -11,6 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.4.0
       - run: make test
+      - run: cat coverage_no_gen.txt
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
