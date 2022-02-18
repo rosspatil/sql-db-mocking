@@ -1,6 +1,5 @@
 <p align="center">
 <b font-size="400px">MYDB<b>
-============
 </p>
 
 <p align="center">Connect with one master DB and multiple read replicas</a></p>
